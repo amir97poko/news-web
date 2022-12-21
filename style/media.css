@@ -1,0 +1,118 @@
+@media(max-width:1160px){
+    .content_box{
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 675px;
+        margin: 0 auto;
+        gap: 15px;
+    }
+    .content_card{
+        border: 2px solid black;
+    }
+    .content_card1{
+        border: 2px solid black;
+    }
+    .content_card2{
+        border: 2px solid black;
+    }
+    .content_card3{
+        border: 2px solid black;
+    }
+}
+@media(max-width:1100px){
+    .section_content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section_content_img{
+        height: 469px;
+        width: 604px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .section_content_desc_title{
+        padding-left: 46px;
+    }
+    .section_content_desc_text{
+        display: flex;
+        text-align: center;
+        max-width: 510px;
+        padding-bottom: 15px;
+    }
+}
+@media(max-width:940px){
+    .nav_list{
+        flex-wrap: wrap;
+        margin-left: 80px;
+        max-width: 380px;
+        justify-content: center;
+    }
+    .footer_nav{
+        flex-direction: column;
+    }
+    .footer_nav_list{
+        flex-wrap: wrap;
+        max-width: 400px;
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+@media(max-width:620px){
+    .nav{
+        flex-direction: column;
+    }
+    .nav_list{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
+@media(max-width:605px){
+    .section_content_img{
+        height: 370px;
+        width: 504px;    
+    }
+    .section_content_desc{
+        padding-left: 10px;
+        max-width: 450px;
+    }
+}
+@media(max-width:505px){
+    .section_content_img{
+        height: 270px;
+        width: 404px;    
+    }
+    .section_content_desc{
+        padding-left: 10px;
+        max-width: 450px;
+        padding-left: 34px;
+
+    }
+    .section_content_desc_text{
+        max-width: 386px;
+    }
+    .section_content_desc_title{
+        padding-left: 1px;
+        font-size: 20px;
+    }
+}
+@media(max-width:405px){
+    .section_content_desc{
+        padding-left: 9px;
+    }
+    .section_content_img{
+        height: 170px;
+        width: 304px;
+    }
+}
+@media(max-width:385px){
+    .section_content_desc_title{
+        padding-left: 25px;
+    }
+}
+@media(max-width:375px){
+    .section_content_desc_title{
+        padding-left: 25px;
+    font-size: 17px;
+    }
+}
